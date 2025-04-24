@@ -1,0 +1,45 @@
+# === Python ===
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === R ===
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+*.Rhistory
+*.Rdata
+*.Rcheck/
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+
+# === VS Code ===
+.vscode/
+
+# === QGIS Project/Plugin specific ===
+*.qgs~
+*.qgz~
+.qgis2/
+.qgis3/
+*.bak
+.metadata/
+.idea/            # If you ever use PyCharm
+*.log
+
+# === System files ===
+.DS_Store
+Thumbs.db
+desktop.ini
